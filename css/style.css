@@ -8,6 +8,10 @@ h1{
   font-size:80px;
   font-weight: 600;
   color:#192b59;
+  max-width: 540px;
+  letter-spacing: -2.5px;
+  line-height: 1.1;
+  margin-bottom: 68px;
 }
 a{
   text-decoration: none;
@@ -20,6 +24,14 @@ a{
   list-style-type:none;
   margin:0;
   padding:0;
+  letter-spacing: 2.5px;
+  display: flex;
+}
+.nav>li{
+  padding:0 15px;
+}
+.nav-item{
+  color:#6e7ea9;
 }
 .btn-primary{
   background-color: #1085e4;
@@ -123,4 +135,7 @@ color:#192b59;
   font-weight: 700;
   color:#fff;
   background-color:1085e4;
+}
+.list-stat{
+  display:flex;
 }
