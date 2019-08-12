@@ -159,6 +159,96 @@ h1{
 /* Page-company стили - конец*/
 
 
+/* Page-subscribe стили - начало*/
+.page-subscribe{
+  background: rgb(10,32,144);
+  background: -moz-linear-gradient(120deg, rgba(10,32,144,1) 0%, rgba(35,119,205,1) 100%);
+  background: -webkit-linear-gradient(120deg, rgba(10,32,144,1) 0%, rgba(35,119,205,1) 100%);
+  background: linear-gradient(120deg, rgba(10,32,144,1) 0%, rgba(35,119,205,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a2090",endColorstr="#2377cd",GradientType=1);
+  padding:54px 0 50px;
+}
+
+.page-subscribe h2{
+  font-size:50px;
+  font-weight: 600;
+  color:#fff;
+   padding-top:44px;
+   letter-spacing:-1.2px;
+ 
+  
+}
+.page-subscribe h2 span{
+  font-size:14px;
+  font-weight: 800;
+  color:#00bffe;
+  display:block;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+ 
+ 
+
+}
+.page-subscribe p{
+  font-size: 18px;
+  line-height: 28px;
+  color:#dfe8ff;
+}
+.page-subscribe button{
+  font-size:14px;
+  font-weight: 700;
+  color:#fff;
+  background-color:1085e4;
+  position: absolute;
+  top:8px;
+  right: 12px;
+  padding:18px 44px;
+}
+.left-robo{
+  width:500px;
+
+  
+}
+
+.box-subscribe input[type="email"]{
+  border:2px solid #b1c3ee;
+  border-radius:35px;
+  padding:25px 50px;
+ background-color: transparent;
+ display:block;
+ width:100%;
+ box-sizing: border-box;
+  color:white;
+  font-size:16px;
+}
+.box-subscribe{
+   width: 541px;
+   position:relative;
+   
+ }
+ .i{
+   padding-top: 20px;
+ }
+.box-subscribe input[type="email"]:focus{
+  outline:none;
+}
+.box-subscribe input[type="email"]::placeholder{
+  color: #b1c3ee;
+}
+.subscribe-flex{
+  display:flex;
+  justify-content: space-between;
+  
+ 
+}
+
+/* Page-subscribe стили - конец*/
+
+
+
+
+
+
 
 .btn-info{
  color:#8085b1;
@@ -202,27 +292,7 @@ color:#192b59;
   font-weight: 600;
   color:#1085e4;
 }
-.page-subscribe h2{
-  font-size:50px;
-  font-weight: 600;
-  color:#fff;
-}
-.page-subscribe h2 span{
-  font-size:14px;
-  font-weight: 800;
-  color:#00bffe;
-}
-.page-subscribe p{
-  font-size: 18px;
-  line-height: 28px;
-  color:#dfe8ff;
-}
-.page-subscribe button{
-  font-size:14px;
-  font-weight: 700;
-  color:#fff;
-  background-color:1085e4;
-}
+
 .list-stat{
   display:flex;
 }
