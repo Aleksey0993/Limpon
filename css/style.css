@@ -121,36 +121,40 @@ h1{
 
 /* Page-header стили - конец*/
 
+/* Page-company стили - начало*/
 .page-company{
   background-image: url(../img/company-img.png);
   background-repeat: no-repeat;
-
+  margin-top: -17px;
+  padding: 123px 0 99px;
   
 }
 .list-company{
   list-style-type: none;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .company-one{
   background-image: url(../img/bg_1.png);
+  width:198px;
+  height: 58px;
 }
 .company-two{
   background-image: url(../img/bg_2.png);
+  width:200px;
+  height: 69px;
 }
 .company-three{
   background-image: url(../img/bg_3.png);
+  width:201px;
+  height: 47px;
 }
 .company-four{
   background-image: url(../img/bg_4.png);
+  width:200px;
+  height: 69px;
 }
-/* Page-company стили - начало*/
-
-
-
-
-
-
-
-
 
 /* Page-company стили - конец*/
 
