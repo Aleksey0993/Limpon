@@ -1,37 +1,17 @@
+/* Общие стили - начало*/
 body{
   font-family: 'Open Sans', sans-serif;
   color:#9aa3ba;
   font-size:16px;
   line-height: 26px;
+  
 }
-h1{
-  font-size:80px;
-  font-weight: 600;
-  color:#192b59;
-  max-width: 540px;
-  letter-spacing: -2.5px;
-  line-height: 1.1;
-  margin-bottom: 68px;
-}
+ .wrap{
+  max-width: 1100px;
+  margin:0 auto;
+ }
 a{
   text-decoration: none;
-}
-.nav{
-  font-size: 12px;
-  color:#6e7ea9;
-  text-transform: uppercase;
-  font-weight: 700;
-  list-style-type:none;
-  margin:0;
-  padding:0;
-  letter-spacing: 2.5px;
-  display: flex;
-}
-.nav>li{
-  padding:0 15px;
-}
-.nav-item{
-  color:#6e7ea9;
 }
 .btn-primary{
   background-color: #1085e4;
@@ -43,6 +23,7 @@ a{
   border-radius: 30px;
   letter-spacing: 2.5px;
   border:1px solid #1085e4;
+
  
 }
 .btn-primary:hover{
@@ -60,13 +41,121 @@ a{
   border-radius: 30px;
   letter-spacing: 2.5px;
   border:1px solid  #cbdbe8;
+  
  
 }
 .btn-secondary:hover{
   background-color: #fff;
-  
+  }
+/* Общие стили - конец*/
 
+
+/* Page-header стили - начало*/
+.page-header{
+  background-image: url(../img/header-background.png);
+  background-repeat: no-repeat;
+  padding:55px 0 330px 0;
+  position: relative;
+  
 }
+.header-screen{
+  position: absolute;
+  right: 0px;
+  top:189px;
+}
+.logo{
+  background-image: url(../img/logo.png);
+  width:181px;
+  height: 49px;
+  display:block;
+}
+.log-menu{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 300px;
+}
+h1{
+  font-size:80px;
+  font-weight: 600;
+  color:#192b59;
+  max-width: 540px;
+  letter-spacing: -2.5px;
+  line-height: 1.1;
+  margin-bottom: 68px;
+}
+
+.nav{
+  font-size: 12px;
+  color:#6e7ea9;
+  text-transform: uppercase;
+  font-weight: 700;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  letter-spacing: 2.5px;
+  display:flex;
+  
+}
+.nav>li{
+ 
+  padding:0 18px;
+}
+.nav>li:last-child{
+  padding-right: 0;
+}
+.nav-item{
+  color:#6e7ea9;
+  
+}
+.btn-free{
+  
+  padding:21px 54px;
+  font-weight:400;
+  letter-spacing: 1.7px;
+ }
+.btn-group a+a{
+  margin-left:15px;
+}
+
+
+/* Page-header стили - конец*/
+
+.page-company{
+  background-image: url(../img/company-img.png);
+  background-repeat: no-repeat;
+
+  
+}
+.list-company{
+  list-style-type: none;
+}
+.company-one{
+  background-image: url(../img/bg_1.png);
+}
+.company-two{
+  background-image: url(../img/bg_2.png);
+}
+.company-three{
+  background-image: url(../img/bg_3.png);
+}
+.company-four{
+  background-image: url(../img/bg_4.png);
+}
+/* Page-company стили - начало*/
+
+
+
+
+
+
+
+
+
+/* Page-company стили - конец*/
+
+
+
 .btn-info{
  color:#8085b1;
  background-color: transparent;
@@ -81,16 +170,10 @@ a{
 
 
 }
-.btn-free{
 
-   padding:21px 54px;
-   font-weight:400;
-   letter-spacing: 1.7px;
-  }
 
-  .btn-group a+a{
-    margin-left:15px;
-  }
+
+ 
 .grid h2{
 font-size: 40px;
 font-weight: 700;
