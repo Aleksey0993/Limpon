@@ -299,10 +299,41 @@ margin-bottom:22px;
 }
 
 
-
-
-
 /* Page-stat стили - конец*/
+/* Page-preview стили - начало*/
+.page-preview{
+  background-color: #edf6ff;
+  padding-top:68px; 
+}
+.box-preview{
+  max-width: 1300px;
+  margin:0 auto;
+}
+.box-preview h2{
+font-size: 40px;
+letter-spacing: -1.3px;
+font-weight: 600;
+color:#192b59;
+text-align: center;
+line-height: 53px;
+
+
+
+}
+.box-preview h2>span{
+  display:block;
+   color:#1085e4;
+   font-size: 18px;
+   letter-spacing: 3.5px;
+   font-weight: 800;
+   text-transform:uppercase;
+}
+.box-preview img{
+  margin-top:70px;
+  display:block; 
+}
+
+/* Page-preview стили - конец*/
 
 
 .btn-info{
