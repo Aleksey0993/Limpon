@@ -338,8 +338,8 @@ line-height: 53px;
 /* Page-plan стили - начало*/
 
  .page-plan{
-   background-color: rgb(233, 225, 225);
-   padding:60px 0 30px;
+   
+   padding:60px 0 128px;
  }
 
 .page-plan h2{
@@ -349,6 +349,7 @@ line-height: 53px;
   color:#192b59;
   text-align: center;
   line-height: 53px;
+  margin-bottom: 80px;
 }
 .page-plan h2>span{
   display:block;
@@ -360,25 +361,90 @@ line-height: 53px;
 }
 .box-price{
   display:flex;
-  justify-content:space-between;
+  justify-content:center;
+}
+.box-price-item{
+  text-align: center;
+  background-color: #f5faff;
+  padding:18px 56px 72px;
+}
+
+.box-price-item h3{
+  font-size:70px;
+  font-weight: 700;
+  color:#000958;
+  margin-bottom: 0;
+
+}
+.box-price-item h3>span{
+  font-size:18px;
+  
+
+}
+.box-price-item h3>span:last-child{
+  color:#9fa4c6;
+}
+.box-price-item p{
+  color:#0084ff;
+  font-size:14px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.box-price-item ul{
+  list-style-type:none;
+  line-height: 40px;
+  color:#9fa4c6;
+  font-size:14px;
+  padding:0;
+  margin-bottom: 38px;
+}
+
+  .btn-info{
+    color:#8085b1;
+    background-color: transparent;
+    border:1px solid #dce1e5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 17px 58px;
+    border-radius: 30px;
+    letter-spacing: 2.5px;
+    display:inline-block;
+    
+   
+}
+.btn-info:hover{
+  color:#fff;
+  background-color: #1a88e1;
+}
+.active{
+  background-color: #192b59;
+  margin: 0 30px; 
+}
+.active h3{
+  color:#fff;
+}
+.active p{
+  color:#fff;
+}
+.active ul{
+
+ color:#fff;
+
+}
+.active .btn-primary{
+  padding: 17px 58px;
+  display:inline-block;
+}
+.active .btn-primary:hover{
+background-color: transparent;
+color:#fff;
 }
 
 
 /* Page-plan стили - конец*/
-.btn-info{
- color:#8085b1;
- background-color: transparent;
- border:1px solid #dce1e5;
- text-transform: uppercase;
- font-size: 12px;
- font-weight: 700;
- padding: 20px 61px;
- border-radius: 30px;
- letter-spacing: 2.5px;
 
-
-
-}
 
 
 
@@ -408,6 +474,3 @@ color:#192b59;
   color:#1085e4;
 }
 
-.list-stat{
-  display:flex;
-}
