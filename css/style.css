@@ -446,7 +446,274 @@ color:#fff;
 /* Page-plan стили - конец*/
 
 
+/* Page-software стили -  начало*/
+.page-software{
+  position: relative;
+  padding:109px 0 156px 0;
+}
+.page-software .software-pic{
 
+  position:absolute;
+  background-image: url(../img/software-pic.png);
+  width: 48%;
+  height: 986px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.box-software{
+  display:flex;
+  justify-content: flex-end;
+}
+.box-software>div{
+  flex-basis: 55%;
+}
+.box-software>div>h2{
+  font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+}
+.page-software-list{
+  margin-top: 30px;
+  height: 323px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.page-software-list dt{
+  font-weight: 700;
+  color: #5a6789;
+  margin-bottom: 9px;
+} 
+.page-software-list dd {
+  margin-left: 0;
+  margin-bottom: 50px;
+  font-size: 14px;
+  line-height: 1.75;
+  padding-right: 20px;
+}
+.settings-icon{
+  display:block;
+  background-image: url(../img/software-icon.png);
+  background-repeat: no-repeat;
+  background-position: -28px 0;
+  width: 117px;
+    height: 98px;
+}
+
+
+
+/* Page-software стили - конец*/
+
+
+
+/* Page-app стили -  начало*/
+  .page-app{
+    padding: 69px 0 82px 0;
+  }
+  .page-app .wrap{
+    position: relative;
+  }
+ .content-app{
+   width:55%;
+ }
+ .content-app h2{
+  font-size: 50px;
+  font-weight: 600;
+  color: #192b59;
+  line-height: 1.2;
+  letter-spacing: -1.5px;
+ }
+ .page-app-text{
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #c4d2dd;
+  margin-top: 27px;
+  margin-bottom: 20px;
+  letter-spacing: 3.5px;
+ }
+
+.page-app-list{
+list-style-type: none;
+padding:0;
+margin-left:-7px;
+}
+.page-app-list>li{
+  display:inline-block;
+}
+.page-app-list>li>a{
+  background-image: url(../img/app.png);
+  background-repeat: no-repeat;
+  display:block;
+  width: 185px;
+  height: 77px;
+}
+.page-app-list>li>a.page-app-android {
+  background-position: 0 0;
+}
+.page-app-list>li>a.page-app-ios {
+  background-position: -191px 0;
+}
+.video-app{
+  position: absolute;
+  top:-60px;
+  right: -170px;;
+}
+/* Page-app стили - конец*/
+
+
+
+
+/* Page-analytics стили -  начало*/
+
+.page-analytics{
+   background-image: url(../img/bg-analytics.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 117px 0 137px 0;
+}
+.page-analytics .flex-analytics{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-analytics>div{
+  flex-basis: 53%;
+}
+.flex-analytics h2{
+  font-size: 50px;
+  font-weight: 600;
+  color: #192b59;
+  line-height: 1.2;
+  letter-spacing: -1.5px;
+}
+.page-analytics-text{
+  margin-bottom: 54px;
+}
+
+
+
+/* Page-analytics стили -  конец*/
+
+
+/* Page-control стили -  начало*/
+
+
+.page-control{
+  background-image: url(../img/bg-control.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 117px 0 137px 0;
+}
+.page-control .flex-control{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-control>div{
+  flex-basis: 53%;
+}
+
+
+.flex-control h2{
+  font-size: 50px;
+  font-weight: 600;
+  color: #192b59;
+  line-height: 1.2;
+  letter-spacing: -1.5px;
+}
+
+.page-control-text{
+  margin-bottom: 54px;
+}
+/* Page-control стили -  конец*/
+ 
+
+
+
+/* Page-form стили - начало*/
+
+.page-form{
+  background-image: url(../img/bg-form.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0 121px 0;
+    
+}
+.page-form .flex-form{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin:0 auto;
+  max-width:1200px;
+  border:1px solid red;
+}
+.page-form .flex-form img{
+  margin-right: 60px;
+}
+.flex-form>div{
+  flex-basis: 47%;
+}
+.flex-form h2{
+  font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+}
+.contact-form{
+display:flex;
+flex-direction: column;
+margin-top:51px;
+}
+.contact-form .btn-primary {
+  position: relative;
+  padding: 22px 40px 22px 65px;
+  max-width: 232px;
+  letter-spacing: 2px;
+}
+.contact-form .btn-primary::before {
+  content: '';
+  background-image: url(../img/btn-plane.png);
+  display: block;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  left: 54px;
+  top: calc(50% - 6px);
+}
+
+.contact-form-item > input{
+  border:1px solid grey;
+  box-sizing: border-box;
+  border-radius:30px;
+  outline:none;
+  padding:20px 80px 25px 37px;
+  width: 100%;
+}
+.contact-form-item{
+  position: relative;
+  border:1px solid red;
+}
+ .contact-form-name:after{
+  content: '';
+  background-image: url(../img/icon-name.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: 45px;
+  top:20px;
+}
+
+
+/* Page-form стили - конец*/
 
  
 .grid h2{
